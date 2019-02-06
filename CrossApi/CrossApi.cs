@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 
-namespace CrossApi
-{
-    public static class CrossApi
+public static class CrossApi
     {
         static HttpClient client = new HttpClient();
         /// <summary>
@@ -56,4 +53,4 @@ namespace CrossApi
         Post,
         Get
     }
-}
+
